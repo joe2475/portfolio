@@ -7,6 +7,7 @@ import HomePage from './components/homepage.component.jsx';
 import {Routes, Route} from 'react-router-dom';
 import ParticlesBg from "particles-bg";
 import Project from './components/project.component';
+import Resume from './components/resume.component';
 import * as ReactDOM from "react-dom"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
          <Route index element={<HomePage/>}></Route>
          <Route path='about' element = {<About/>}></Route>
          <Route path='project' element={<Project/>}></Route>
+         <Route path='resume' element={<Resume/>}></Route>
        </Route>
 
      </Routes>
