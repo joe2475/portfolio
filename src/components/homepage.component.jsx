@@ -1,7 +1,7 @@
 import React from "react";
 import './homepage.styles.scss';
 import {render} from 'react-dom';
-import Project from "./project.component";
+import Project from "../pages/project.page";
 import ParticlesBg from "particles-bg";
 function HomePage() {
     return(

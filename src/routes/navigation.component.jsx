@@ -7,7 +7,6 @@ import {ReactComponent as DragonLogo} from '../assets/dragon.svg'
 const Navigation = () =>
 {
     return(
-
     <Fragment>
         <div className="navigation">
         <Link className="logo-container" to='/'>
@@ -16,6 +15,7 @@ const Navigation = () =>
             <div className="nav-links-container">
             <Link className="nav-link" to='/about'>About</Link>
             <Link className="nav-link" to='/project'>Projects</Link>
+            <Link className="nav-link" to='/resume'>Resume</Link>
           
             </div>
         </div>
