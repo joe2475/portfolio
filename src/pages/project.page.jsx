@@ -3,7 +3,7 @@ import './project.styles.scss';
 import {Container, Card, Row, Col, Image, ListGroup } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { AiFillDatabase, AiOutlineGithub, AiFillGoogleCircle } from "react-icons/ai";
-import { FaServer, FaAws } from "react-icons/fa";
+import { FaServer, FaAws, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiSplunk, SiDevpost } from "react-icons/si";
 import { GrDocumentText } from "react-icons/gr";
 import { motion } from "framer-motion";
@@ -12,6 +12,54 @@ const Project = () =>
    <Container>
        <h1 className="header">Projects</h1>
       <Row>
+      <Col lg={6}>
+          <Card className="mb-3">
+              <Card.Header>
+                  Portfolio Website
+              </Card.Header>
+           <Card.Body>
+           <Card.Title><FaReact className="logo"/></Card.Title>
+           <Card.Text>
+           In this project I created this website to show the types of projects I have worked on in the past. As well as, my other experience. This site was created in React. I am using AWS 
+           Amplify to host the site. Amplify also acts a continuous deployment pipline. When I merge the changes in my development branch on GitHub to the main branch it will automatically rebuild
+           and redeploy the application. This site is still a work in progress and future edits will be made. 
+           <ListGroup>
+               <ListGroup.Item>React</ListGroup.Item>
+               <ListGroup.Item>GitHub</ListGroup.Item>
+               <ListGroup.Item>AWS Amplify</ListGroup.Item>
+               <ListGroup.Item>DNS and Domain hosting</ListGroup.Item>
+               <ListGroup.Item>AWS S3</ListGroup.Item>
+           </ListGroup>
+           </Card.Text>
+           <Card.Footer>
+             <a href="https://github.com/joe2475/portfolio" target={"_blank"}><AiOutlineGithub/></a>
+           </Card.Footer>
+           </Card.Body>
+       </Card>
+          </Col>
+          <Col lg={6}>
+          <Card className="mb-3">
+              <Card.Header>
+                  Express App
+              </Card.Header>
+           <Card.Body>
+           <Card.Title><FaNodeJs className="logo"/></Card.Title>
+           <Card.Text>
+           Created a simple Restful API in Express JS. It allows for the creation, lookup, and modification of users via their name and age. It does contain custom middleware that was used for
+           basic error handling and logging functionality.  
+           Right now it does not have data persistence functionality. 
+           <ListGroup>
+               <ListGroup.Item>Express</ListGroup.Item>
+               <ListGroup.Item>NodeJS</ListGroup.Item>
+               <ListGroup.Item>REST</ListGroup.Item>
+           </ListGroup>
+           </Card.Text>
+           <Card.Footer>
+             <a href="https://github.com/joe2475/Express_App" target={"_blank"}><AiOutlineGithub/></a>
+           </Card.Footer>
+           </Card.Body>
+       </Card>
+          </Col>
           <Col lg={6}>
           <Card className="mb-3">
               <Card.Header>
@@ -75,6 +123,12 @@ const Project = () =>
            Given the Apache Tomcat AMI I created an AWS EC2 instance to host the website. Then I created an RDS in AWS and attached it to MySQL on my own machine. 
             I then configured the webserver to connect to the database. Then I created an AMI with the new configuration and from that created two more instances. 
            Finally, I created an instance of the elastic load balancer and configured it to use the three instances. 
+           <ListGroup>
+               <ListGroup.Item>AWS EC2</ListGroup.Item>
+               <ListGroup.Item>MySQL</ListGroup.Item>
+               <ListGroup.Item>AWS RDB</ListGroup.Item>
+               <ListGroup.Item>AWS Load Balancer</ListGroup.Item>
+           </ListGroup>
            </Card.Text>
            <Card.Footer>
            <a href="https://portfoliobarsis.s3.us-east-2.amazonaws.com/AWS+Project+SA.pdf" target={"_blank"}><GrDocumentText/></a>

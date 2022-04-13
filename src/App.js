@@ -8,6 +8,7 @@ import {Routes, Route} from 'react-router-dom';
 import ParticlesBg from "particles-bg";
 import Resume from './pages/resume.page';
 import Project from './pages/project.page';
+import Footer from './routes/footer.component'
 import * as ReactDOM from "react-dom"
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
          <Route path='project' element={<Project/>}></Route>
          <Route path='resume' element={<Resume/>}></Route>
        </Route>
-
+   
      </Routes>
+     <Footer/>
     
     </div>
   );
