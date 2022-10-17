@@ -10,8 +10,11 @@ function Resume()
             <h1>Resume</h1>
             <h2 className='header'>Education</h2>
             <ListGroup className='list' variant="flush">
+            <ListGroup.Item>Masters of Computer Science, The University of Texas at Dallas
+                </ListGroup.Item>
                 <ListGroup.Item>Bachelor of Software Engineering and Computer Science, The University of Texas at Dallas
-                (3.17 GPA)</ListGroup.Item>
+                (3.25 GPA)
+                August 20, 2017 - May 25, 2022</ListGroup.Item>
                 <ListGroup.Item>Associate of Arts Criminal Justice, Eastfield Community College (3.3 GPA)
                 January 17, 2015 – May 25, 2017</ListGroup.Item>
             </ListGroup>
@@ -28,7 +31,7 @@ function Resume()
             <ListGroup className="list" variant="flush">
                 <ListGroup.Item>Member of the IEEE organization</ListGroup.Item>
                 <ListGroup.Item>Member of IEEE Dallas Section Government Relations Policy Committee</ListGroup.Item>
-                <ListGroup.Item>IEE Computer Society Member</ListGroup.Item>
+                <ListGroup.Item>IEEE Computer Society Member</ListGroup.Item>
                 <ListGroup.Item>Google Developer Student Club</ListGroup.Item>
             </ListGroup>
 
