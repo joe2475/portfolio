@@ -20,8 +20,11 @@ const Project = () =>
            <Card.Body>
            <Card.Title><FaReact className="logo"/></Card.Title>
            <Card.Text>
-           In this project I created this website to show the types of projects I have worked on in the past. As well as, my other experience. This site was created in React. I am using AWS 
-           Amplify to host the site. Amplify also acts a continuous deployment pipline. When I merge the changes in my development branch on GitHub to the main branch it will automatically rebuild
+           In this project I created this website to show the types of projects I have worked on in the past. 
+           As well as, my other experience. This site was created in React. I am using AWS 
+           Amplify to host the site. Amplify also acts a continuous deployment pipline. 
+           When I merge the changes in my development branch on GitHub to the main branch it will automatically 
+           rebuild
            and redeploy the application. This site is still a work in progress and future edits will be made. 
            <ListGroup>
                <ListGroup.Item>React</ListGroup.Item>

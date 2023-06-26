@@ -10,7 +10,7 @@ function Resume()
             <h1>Resume</h1>
             <h2 className='header'>Education</h2>
             <ListGroup className='list' variant="flush">
-            <ListGroup.Item>Masters of Computer Science, The University of Texas at Dallas
+            <ListGroup.Item>Masters of Computer Science with a focus in intelligent systems, The University of Texas at Dallas
                 </ListGroup.Item>
                 <ListGroup.Item>Bachelor of Software Engineering and Computer Science, The University of Texas at Dallas
                 (3.25 GPA)
@@ -18,7 +18,6 @@ function Resume()
                 <ListGroup.Item>Associate of Arts Criminal Justice, Eastfield Community College (3.3 GPA)
                 January 17, 2015 – May 25, 2017</ListGroup.Item>
             </ListGroup>
-
             <h2 className='header'>Achievements</h2>
             <ListGroup className="list" variant="flush">
                 <ListGroup.Item>Responsible Conduct of Research Certification (RCR)</ListGroup.Item>
